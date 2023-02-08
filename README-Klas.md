@@ -9,6 +9,10 @@ pip install openai
 pip install pandas
 pip install tiktoken
 pip install wikipedia
+pip install matplotlib
+pip install plotly
+pip install scipy
+pip install sklearn
 ````
 
 Always `source venv/bin/activate` before statting vscode
