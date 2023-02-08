@@ -12,7 +12,7 @@ pip install wikipedia
 pip install matplotlib
 pip install plotly
 pip install scipy
-pip install sklearn
+pip install scikit-learn
 ````
 
 Always `source venv/bin/activate` before statting vscode
