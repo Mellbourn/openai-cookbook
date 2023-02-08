@@ -4,10 +4,13 @@ To set up
 python -m venv venv
 source venv/bin/activate
 pip install jupyter
-Pip install numpy
-Pip install openai
-Pip install pandas
-Pip install tiktoken
+pip install numpy
+pip install openai
+pip install pandas
+pip install tiktoken
+pip install wikipedia
 ````
 
 Always `source venv/bin/activate` before statting vscode
+
+set an API key
