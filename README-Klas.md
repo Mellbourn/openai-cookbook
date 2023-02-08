@@ -1,4 +1,4 @@
-To set up
+# How to configure a Visual Studio Code Jupiter Notebook environment
 
 ```sh
 python -m venv venv
@@ -15,7 +15,12 @@ pip install scipy
 pip install scikit-learn # note: not sklearn!
 ```
 
-
 Always `source venv/bin/activate` before statting vscode
 
-set an API key
+Set an API key and start code
+
+```sh
+source venv/bin/activate
+export OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+code .
+```
